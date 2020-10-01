@@ -4,7 +4,7 @@ const flatpakBundler = require('flatpak-bundler')
 flatpakBundler.bundle({
     id: 'com.boilerplate.node-gtk', // your app id must contain atleast 2 periods
     runtime: 'org.gnome.Platform',
-    runtimeVersion: '3.28',
+    runtimeVersion: '3.34',
     sdk: 'org.gnome.Sdk',
     files: [
         ['build', 'share/node-gtk/']
